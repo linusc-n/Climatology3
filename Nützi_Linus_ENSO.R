@@ -1,7 +1,7 @@
 """
 Linus Nützi
 Climatology 3, exercise 1, ENSO-Composites
-17.10.26
+19.10.26
 """
 
 setwd("C:/Users/linus/OneDrive/Desktop/Uni/HS26/Geographie/Klima 3/Data/")
