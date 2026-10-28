@@ -51,7 +51,7 @@ prec.jja <- apply(prec3[,,,6:8],c(1:3),mean)
 yr.djf <- c(1422:2008) # because of the shifting with Dec
 yr.jja <- c(1421:2008)
 
-selyrs_slp <- which(yr.djf >= 1709 & yr.djf <= 2008)
+selyrs_slp <- which(yr.djf >= 1709 & yr.djf <= 2008) # Assumption: first winter = winter starting with December 1709
 selyrs_temp <- which(yr.jja >= 1870 & yr.jja <= 2008)
 
 ### Coordinates gridcell: Reykjavik: 338.5E, 64.1N; Lisbon: 350.8, 38.7N; Lugano: 9E, 46N; Northpole: 0E, 90N; Central Pacific Ocean: 145W = -145E, 0N)
